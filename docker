@@ -1,0 +1,3 @@
+docker run
+docker run -d -v $(pwd)/data/PROVINCE:/data -p 8600:8080 --name geoserver kartoza/geoserver
+docker run --name some-postgis -p 1234:5432 -e POSTGRES_PASSWORD=docker -d postgis/postgis
